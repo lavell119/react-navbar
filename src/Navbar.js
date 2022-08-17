@@ -4,7 +4,9 @@ export default function Navbar() {
         <ul>
             <li>
                 <a href="/pricing">Pricing</a>
-                <a href="/about">About</a>            
+            </li>
+            <li>
+                <a href="/about">About</a>
             </li>
         </ul>
     </nav>
