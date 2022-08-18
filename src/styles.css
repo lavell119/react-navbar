@@ -16,6 +16,11 @@ body {
     padding: 0 1rem;
 }
 
+.container {
+   margin: 1rem;
+   text-align: center; 
+}
+
 .site-title {
     font-size: 2rem;
 }
