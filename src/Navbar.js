@@ -11,8 +11,9 @@ export default function Navbar() {
 }
 
 function CustomLink({href, children, ...props}) {
+    const path = window.location.pathname
     return (
-        <li>
+        <li className={path ===href ? "active": ""}>
             <a href={href}>{children}</a>
         </li>
     )
